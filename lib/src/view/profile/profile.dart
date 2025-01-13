@@ -238,13 +238,6 @@ class _ProfileState extends ModularState<Profile, ProfileController> {
                             )
                           ),
                         );
-                        // return ListView.builder(
-                        //     itemCount: state.repoList.length,
-                        //     itemBuilder: (context, index) {
-                        //       return RepoCard(
-                        //         repo: state.repoList[index],
-                        //       );
-                        //     });
                       }
                       return Container();
                     } else {

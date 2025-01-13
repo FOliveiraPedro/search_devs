@@ -40,7 +40,6 @@ dependencies:
   infinite_scroll_pagination: ^4.1.0
   internet_connection_checker: ^1.0.0+1
   shared_preferences: ^2.0.13
-  url_launcher: ^6.3.1
   webview_flutter: ^4.8.0
 
   # The following adds the Cupertino Icons font to your application.

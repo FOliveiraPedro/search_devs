@@ -21,7 +21,6 @@ class RepoCard extends StatelessWidget {
         children: [
           InkWell(
             onTap: () {
-              // launchUrl(Uri.parse(repo.htmlUrl));
               Navigator.of(context).push(MaterialPageRoute(
                   builder: (context) => WebView(url: repo.htmlUrl)));
             },
